@@ -1,0 +1,12 @@
+// My New Network
+digraph {
+	node [shape=box]
+	Arista_249
+	HP830_LSW
+	HP_5500EI
+	HP_5500EI
+		Arista_249 -> HP830_LSW [label="GigabitEthernet1/0/12-Ethernet47"]
+		Arista_249 -> HP_5500EI [label="GigabitEthernet2/0/22-Ethernet48"]
+		Arista_249 -> HP_5500EI [label="GigabitEthernet1/0/24-Management1"]
+	thingy [image="switch.svg"]
+}

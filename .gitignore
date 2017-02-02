@@ -137,3 +137,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/LearningGraphViz.iml
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
